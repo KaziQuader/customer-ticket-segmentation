@@ -1,0 +1,79 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environment ===
+.venv/
+env/
+venv/
+ENV/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === VSCode settings ===
+.vscode/
+
+# === Logs & Debugging ===
+*.log
+*.out
+
+# === Data files ===
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.db
+*.sqlite3
+data/
+datasets/
+inputs/
+outputs/
+
+# === Models ===
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# === MLflow ===
+mlruns/
+
+# === DVC ===
+*.dvc
+.cache/
+.dvc/
+data/  # If managed by DVC, should be tracked via .dvc files instead
+
+# === Docker ===
+*.pid
+*.tar
+docker-compose.override.yml
+
+# === Airflow ===
+airflow.db
+airflow.cfg
+logs/
+
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# === Jupyter Notebooks Output (optional) ===
+*.nbconvert.ipynb
+
+# === Secrets ===
+.env
+*.env
+secrets/
+credentials.json
+config.yaml
