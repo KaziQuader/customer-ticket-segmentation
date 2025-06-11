@@ -48,10 +48,10 @@ checkpoints/
 mlruns/
 
 # === DVC ===
-*.dvc
-.cache/
-.dvc/
-data/  # If managed by DVC, should be tracked via .dvc files instead
+# *.dvc
+# .cache/
+# .dvc/
+# data/  #If managed by DVC, should be tracked via .dvc files instead
 
 # === Docker ===
 *.pid
@@ -77,3 +77,4 @@ logs/
 secrets/
 credentials.json
 config.yaml
+kaggle.json
