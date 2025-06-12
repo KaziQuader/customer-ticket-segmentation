@@ -23,19 +23,19 @@ ENV/
 *.out
 
 # === Data files ===
-*.csv
-*.tsv
-*.parquet
-*.h5
-*.hdf5
-*.pkl
-*.joblib
-*.db
-*.sqlite3
-data/
-datasets/
-inputs/
-outputs/
+# *.csv
+# *.tsv
+# *.parquet
+# *.h5
+# *.hdf5
+# *.pkl
+# *.joblib
+# *.db
+# *.sqlite3
+# data/
+# datasets/
+# inputs/
+# outputs/
 
 # === Models ===
 *.pt
